@@ -8,8 +8,8 @@ CREATE TABLE Accident(
 CREATE TABLE Address(
 	address_id		    CHAR(50) NOT NULL,
 	zipcode			    CHAR(5) NOT NULL,
-	lat			    DECIMAL(3, 6) NOT NULL,
-	lng			    DECIMAL(3, 6) NOT NULL,
+	lat			    NUMERIC(9, 6),
+	lng			    NUMERIC(9, 6),
 	street			    CHAR(25) NULL,
 	side			    CHAR(5) NULL
 );
