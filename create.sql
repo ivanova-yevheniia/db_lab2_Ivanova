@@ -1,21 +1,24 @@
 CREATE TABLE Accident(
 	accident_id 		CHAR(10) NOT NULL,
-	address_id			CHAR(50) NOT NULL,
-	accident_date	    DATE NOT NULL,
+	address_id		CHAR(50) NOT NULL,
+	accident_date	        DATE NOT NULL,
 	severity	        CHAR(250) NULL
 );
+
 CREATE TABLE Address(
 	address_id		    CHAR(50) NOT NULL,
-	zipcode				CHAR(5) NOT NULL,
-	lat					DECIMAL(3, 6) NOT NULL,
-	lng					DECIMAL(3, 6) NOT NULL,
-	street				CHAR(25) NULL,
+	zipcode			    CHAR(5) NOT NULL,
+	lat			    DECIMAL(3, 6) NOT NULL,
+	lng			    DECIMAL(3, 6) NOT NULL,
+	street			    CHAR(25) NULL,
 	side			    CHAR(5) NULL
 );
+
 CREATE TABLE USA_State(
-	zipcode				CHAR(5) NOT NULL,
-	usa_state			CHAR(25) NOT NULL	
+	zipcode			    CHAR(5) NOT NULL,
+	usa_state		    CHAR(25) NOT NULL	
 );
+
 ALTER TABLE Accident ADD PRIMARY KEY (accident_id);
 ALTER TABLE USA_State ADD PRIMARY KEY (zipcode);
 ALTER TABLE Address ADD PRIMARY KEY (address_id);
