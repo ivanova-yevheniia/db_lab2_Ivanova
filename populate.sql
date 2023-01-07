@@ -24,7 +24,7 @@ VALUES('OH-43017-75639', '43017', 40.108909, -83.09286, 'Outerbelt E', 'Right'),
 	  ('OH-45237-39184', '45237', 39.17397, -84.49031, 'I-75 N', 'Right');
 
 INSERT INTO Accident(accident_id, address_id, accident_date, severity)
-VALUES('A-1', 'OH-43017-75639', '2016-02-08', 'Speeding'),
+VALUES('A-1', 'OH-43017-75639', '2022-02-08', 'Speeding'),
 	  ('A-2', 'OH-43610-41683', '2022-02-12', 'Motorcycle Accidents'),
 	  ('A-3', 'IN-46783-40985', '2022-03-08', 'DUI'),
 	  ('A-4', 'KY-41017-75398', '2022-04-09', 'Speeding'),
