@@ -2,7 +2,7 @@ CREATE TABLE Accident(
 	accident_id 		CHAR(10) NOT NULL,
 	address_id		CHAR(50) NOT NULL,
 	accident_date	        DATE,
-	severity	        CHAR(250) NULL
+	severity	        CHAR(50) NULL
 );
 
 CREATE TABLE Address(
