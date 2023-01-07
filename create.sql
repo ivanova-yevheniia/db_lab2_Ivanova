@@ -16,7 +16,7 @@ CREATE TABLE Address(
 
 CREATE TABLE USA_State(
 	zipcode			    CHAR(5) NOT NULL,
-	usa_state		    CHAR(25) NOT NULL	
+	usa_state		    CHAR(20) NOT NULL	
 );
 
 ALTER TABLE Accident ADD PRIMARY KEY (accident_id);
