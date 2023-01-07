@@ -1,14 +1,14 @@
 INSERT INTO USA_State(zipcode, usa_state)
 VALUES ('43017', 'Ohio'),
-	   ('43610', 'Ohaio'),
+	   ('43610', 'Ohio'),
 	   ('46783', 'Indiana'),
 	   ('41017', 'Kentucky'),
 	   ('40216', 'Kentucky'),
 	   ('40212', 'Kentucky'),
 	   ('15301', 'Pennsylvania'),
-	   ('44314', 'Ohaio'),
+	   ('44314', 'Ohio'),
 	   ('26335', 'West Virginia'),
-	   ('45237', 'Ohaio');
+	   ('45237', 'Ohio');
       
 
 INSERT INTO Address(address_id, zipcode, lat, lng, street, side)
