@@ -15,7 +15,7 @@ CREATE TABLE Address(
 );
 
 CREATE TABLE USA_State(
-	zipcode			    CHAR(5) NOT NULL,
+	zipcode			    INT,
 	usa_state		    CHAR(20) NOT NULL	
 );
 
